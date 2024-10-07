@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+    box-sizing: border-box;
+    font-size: 70%;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* Globales */
+  body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
